@@ -1,5 +1,5 @@
 :root {
-    --size:20px;
+    --size:30px;
 }
 h1 {
     text-align: center;
@@ -17,17 +17,33 @@ img {
     display: inline-block;
 }
 blockquote {
-     font-size: 20px;
+     font-size: var(--size);
      color: rgb(255, 0, 144);
 }
 div {
     border: 2px solid #222;
 }
-@media (min-width: 1000px) {
+@media (min-width: 1024px) {
     blockquote{
         font-size: 30px;
     }
     p{
         font-size: 30px;
+    }
+}
+@media (min-width: 768px) {
+    blockquote{
+        font-size: 40px;
+    }
+    p{
+        font-size: 40px;
+    }
+}
+@media (min-width: 320px) {
+    blockquote{
+        font-size: 50px;
+    }
+    p{
+        font-size: 50px;
     }
 }
