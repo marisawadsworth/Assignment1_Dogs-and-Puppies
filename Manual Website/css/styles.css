@@ -1,0 +1,37 @@
+:root {
+   --size:40px;
+}
+body{
+    background-color: lightpink;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+p {
+    font-family: verdana;
+    font-size: var(--size);
+    text-align: right;
+    color: #222;
+}
+img {
+    height: 350px;
+    width: 400px;
+    display: inline-block;
+}
+blockquote {
+     font-size: 20px;
+     color: rgb(255, 0, 144);
+}
+div {
+    border: 2px solid #222;
+}
+@media (min-width: 1000px) {
+    blockquote{
+        font-size: 30px;
+    }
+    p{
+        font-size: 30px;
+    }
+}
