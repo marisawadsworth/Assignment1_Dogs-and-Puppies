@@ -1,50 +1,47 @@
 :root {
-   --size:40px;
-}
-body{
-    background-color: lightpink;
-}
-h1 {
-    color: white;
-    text-align: center;
-    font-size: 50px;
-}
-p {
-    font-family: verdana;
-    font-size: var(--size);
-    text-align: right;
-    color: #222;
-}
-img {
-    height: 350px;
-    width: 400px;
-    display: inline-block;
-}
-blockquote {
-     font-size: 30px;
-     color: rgb(255, 0, 144);
-}
-div {
-    border: 2px solid #222;
-}
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
-    blockquote{
-        font-size: 25px;
-    }
-}
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+    --size:40px;
+ }
+ body{
+     background-color: lightpink;
+ }
+ h1 {
+     color: white;
+     text-align: center;
+     font-size: 50px;
+ }
+ p {
+     font-family: verdana;
+     font-size: var(--size);
+     text-align: right;
+     color: #222;
+ }
+ img {
+     height: 350px;
+     width: 400px;
+     display: inline-block;
+ }
+ blockquote {
+      font-size: 30px;
+      color: rgb(255, 0, 144);
+ }
+ div {
+     border: 2px solid #222;
+ }
+ @media screen and (min-width: 1025px) and (max-width: 1280px) {
      blockquote{
-        font-size: 30px;
-    }
-    p{
-        font-size: 30px;
-    }
-}
-@media screen and (min-width: 481px) and (max-width: 767px){
-    blockquote{
-        font-size: 20px;
-    }
-    p{
-        font-size: 40px;
-    }
-}  
+         font-size: 25px;
+     }
+ }
+ @media screen and (min-width: 768px) and (max-width: 1024px) {
+      body {
+         background-color:lightblue;
+      }
+ }
+ @media screen and (min-width: 481px) and (max-width: 767px){
+     blockquote{
+         font-size: 20px;
+     }
+     p{
+         font-size: 40px;
+     }
+ }  
